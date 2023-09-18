@@ -1,0 +1,13 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/header.css' %}">
+</head>
+<body>
+    <header style="background-color:#1D1A39;">
+        <center>
+            <a href="{% url 'shop:allProdCat' %}">
+                <img src="{% static 'img/logo.png' %}" alt="logoimage" width="150px">
+            </a>
+        </center>
+    </header>
+</body>
